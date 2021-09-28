@@ -1,0 +1,656 @@
+/*mainpart css*/
+
+*{margin:0; padding:0;}
+
+p{
+  margin-top: 10px; 
+  margin-bottom:15px; 
+  font-size: 22PX; 
+  color: #444;
+}
+
+
+
+.clearfix{
+  overflow: auto; 
+}
+
+.wrapper{
+   margin:0 auto;
+  margin-top: 30px;
+  width: 1350px;
+  height: 100%;
+}
+
+div.top {
+  margin:5px;
+  padding-right: 30px;
+  padding-left: 5px;
+  background: #5D5C61;
+  width: 1300px;
+  height: 170px;
+  background-image: url(../img/sea.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+header h1{
+  font-family: inherit;
+  float: right;
+  font-size: 50px;
+}
+
+div.logo img{
+  width: 110px;
+  height: 70px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.top-bar{
+  margin:5px;
+  padding: 5px;
+  display: inline-block;
+  background: #000;
+  background: linear-gradient(#333,#444,#333);
+  text-align: center;
+  border-radius: 5px;
+  width: 1300px;
+}
+
+
+.top-bar-links{
+  float: left;
+  margin-top: 5px;
+}
+
+.top-bar-links ul{
+  margin-top:15px;
+  list-style: none;
+}
+
+.top-bar-links ul li{
+  padding: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 100px;
+}
+
+.top-bar-links ul li:last-child{
+  border: 0;
+}
+
+.top-bar-links ul li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.top-bar-links ul li a:hover{
+  color:red;
+}
+
+.top-bar-links ul li a.categories{
+  margin-top: 20px;
+  margin-left: 80px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid black;
+  border-radius: 20px;
+  font-size:20px;
+
+}
+.top-bar-links ul li a.categories:hover{
+  background: #eee;
+  color:red;
+}
+
+.site-search{
+  padding: 1px 1px 1px 1px;
+  margin:22px 10px 10px 10px;
+  float:left;
+  background:white;
+  border-radius: 20px;
+  height: 25px;
+  width: 250px;
+  border: none;
+  outline:none;
+}
+.site-search input{
+  padding-top: 5px;
+  padding-left: 0px;
+  width: 210px;
+  border: 0;
+  outline: none;
+  float: right;
+  border-radius: 20px;
+  font-size: 16px;
+  
+}
+.site-search img{
+  margin: 1px;
+  width: 18px;
+  float: left;
+  margin-left: 5px;
+}
+
+.site-search button{
+  width: 35px;
+  height: 20px;
+  margin-top: 2px;
+  background-color: white;
+  padding: 1px;
+  border: 0;
+  float:left;
+  border-radius: 20px;
+}
+
+.login button{
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background: #116466;
+  color:white;
+  font-size: 18px;
+  font-family: inherit;
+  float: right;
+  width: 100px;
+  height:50px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+div.login img{
+  width: 70px;
+  height: 58px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 100px;
+ 
+}
+
+div.login button:hover , div.user:hover{
+  background:#3f729b ;
+  color:#fff;
+}
+
+.test{
+  border : 5px solid darkblue; 
+}
+
+div.line1 button,div.line2 button{
+  padding: 8px;
+  margin: 8px 4px 4px 4px;
+  width: 20%;
+  height: 40px;
+  background-color: #116466;
+  font-size: 16px;
+  font-weight: 100px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+div.line2 button{
+  align-content: center;
+}
+
+div.line1 button:hover,div.line2 button:hover{
+  background: linear-gradient(white,grey,white);
+  color:#fff;
+}
+
+footer.bar{
+  margin: 10px;
+  padding: 0px;
+  width:1300px;
+  background: #212121;
+  float: left;
+}
+
+div.left{
+  width: 64px;
+  float: left;
+}
+
+div.right{
+  float: right;
+  margin: 10px;
+}
+
+div.left1 img{
+  float: left;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+div.right1{
+  float: right;
+  padding-top: 1px
+  margin-left:20px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+div.chat img{
+  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin right:20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+div.social img{
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+div.right1{
+  margin-top: 15px;
+}
+
+div.subs{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 600px;
+  height: 80px;
+  background: #37474F;
+  float: right;
+}
+
+div .subs input{
+  margin-top:3px;
+  margin-right: 20px;
+  background: white;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 340px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  float: right;
+   outline:none;
+   border: none;
+}
+
+div img{
+  margin-top: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  color:#4267B2;
+}
+
+div.social .fa-whatsapp{
+  color: #25D366;
+
+}
+div.social .fa-facebook-f{
+  color:#4267B2;
+
+}
+div.social .fa-twitter{
+  color: #4267B2;
+
+}
+div.social .fa-youtube{
+  color: #FF0000;
+
+}
+div.subs h3{
+  color:#fff;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+div.subs h5{
+  color:#fff;
+  margin-left: 10px;
+   text-align: left;
+}
+
+div.subs button{
+  float: right;
+  margin-top: 3px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 3px solid black;
+  background: black;
+  color:white;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
+.social{
+  margin-right: 5px;
+}
+
+div.copyrights{
+
+  padding-top: 20px;
+  padding-left: 50px;
+  float: left;
+  color: white;
+}
+
+
+
+/*aboutus css*/
+
+
+.coverimg{
+  position: relative;
+  opacity: 0.8;
+}
+
+.text {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  font-weight: bolder;
+  color: black;  
+}
+
+.content1, .content2{
+  width: 450px;
+  height:200px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  background-color: black;
+  font-weight: bolder;
+  opacity: 0.8;
+}
+
+.content1{
+  float:left;
+  margin-left: 100px;
+  
+}
+
+.content2{
+  float: right;
+  margin-right: 100px;
+}
+
+.content3{
+  width: 900px;
+  height: 105px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding-bottom: 25px; 
+  padding-top: 25px;
+  text-align: center;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.8;
+  font-weight: bolder;
+
+}
+
+div.col1{
+  float: left;
+  width: 400px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding: 10px;
+  float: right;
+ 
+}
+
+div.col2{
+  float: right;
+  width: 400px;
+  margin: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+ 
+}
+
+h2{
+  text-align: center;
+  color:white;
+  font-size: 26px;
+}
+
+p{
+  color:white;
+   font-size: 22px;
+}
+
+
+/*contactus css*/
+
+div.home{
+  width: 400px;
+  height: 400px;
+  background-color: Black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  padding-bottom: 20px; 
+  padding-top: 25px;
+  padding-left: 25px;
+  font-size: 25px;
+  float: right;
+  color:white;
+  opacity: 0.8;
+}
+
+
+input.contact,textarea.contact{
+  background: #eee;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 360px;
+  border:1;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+
+button.send{
+  border:1;
+  border-radius: 25px;
+  padding: 10px 10px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: white;
+  width: 100px;
+}
+
+button.send:hover{
+  background: grey;
+  color:white; 
+}
+form input.attach{
+  background-color:white;
+  color:black;
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.map{
+  width: 600px;
+  height:400px;
+  background-color: Black;
+  opacity: 0.8;
+  margin-top: 25px;
+  margin-left: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+  padding: 23.5px;
+}
+
+.map h1{
+  color: white;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.map a img{
+  background-color: white;
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.map h5{
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.more{
+  width: 400px;
+  height: 100px;
+  background-color: black;
+  opacity: 0.8;
+  margin-bottom:25px;
+  float: left;
+  margin-left: 380px;
+}
+
+.more img{
+  margin-top: 15px;
+  float: left;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.more h5{
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+
+
+/*sign in css*/
+
+div.sign{
+  width: 400px;
+  height: 550px;
+  background-color: black;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+
+div.signin{
+  width: 400px;
+  height: 600px;
+  background-color: black;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+
+}
+
+div.sign h1{
+  margin: 10px;
+ 
+}
+
+div.sign h3{
+  padding: 10px;
+  margin: 15px;
+    float: left;
+ 
+}
+div.signin h3{
+  padding: 5px;
+  margin: 5px;
+  float: left;
+
+}
+
+.log{
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 360px;
+  border: 1px solid white; 
+  outline: none;
+}
+
+div.sign button{
+  width: 380px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  border:5px solid white;
+  color: white; 
+  border-radius: 30px;
+}
+
+div.signin button{
+  width: 380px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  border:5px solid white;
+  color: white; 
+  border-radius: 30px;
+}
+
+.checkbox{
+  margin: 10px;
+}
+
+div.sign a{
+  color: white;
+  font-weight: bold; 
+}
+
+p.error{
+  background:red;
+  color:white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
