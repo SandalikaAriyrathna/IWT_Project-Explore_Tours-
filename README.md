@@ -10,4 +10,4 @@ Member 4 - IT20636906 - Mr. H.I.M. Samaranayaka
 
 Member 5 - IT20640620 - Mr. I.P.S.U. Priyashan
 
-IWT Project(html,css,js,php)
+Technologies used - HTML,CSS,JS,PHP
